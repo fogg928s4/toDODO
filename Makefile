@@ -1,2 +1,2 @@
-tododo: todo.c
-	$(CC) todo.c -o tododo -Wall -Wextra -lglfw -lleif -lxcb -lm -lclipboard -lGL -std=c99
+tododo: src/todo.c
+	$(CC) src/todo.c -o tododo -lGL -lleif -lglfw -lclipboard -lxcb -lm -std=c99
